@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3 - Diseño Web Responsivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Manuel Alejandro Soto Rojas">
+</head>
+<body>
+
+    <header>
+        <h1>Diseño Web Responsivo</h1>
+        <p>Curso: ISW-512 - Diseño de Aplicaciones Web</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#responsivo">Diseño Responsivo</a></li>
+            <li><a href="#viewport">Viewport</a></li>
+            <li><a href="#media">Media Queries</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <aside>
+            <h3>Recursos de interés</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design">MDN - Diseño Responsivo</a></li>
+                <li><a href="https://www.w3schools.com/css/css_rwd_intro.asp">W3Schools - Responsive Web Design</a></li>
+            </ul>
+        </aside>
+
+        <section>
+            <article id="responsivo">
+                <h2>¿Qué es el Diseño Web Responsivo?</h2>
+                <p>El diseño web responsivo es una técnica que permite que los sitios web se adapten automáticamente al tamaño de la pantalla o dispositivo del usuario. Su objetivo es garantizar una experiencia óptima tanto en computadoras, tabletas y teléfonos.</p>
+                <p>Este enfoque mejora la accesibilidad, la velocidad de carga y la usabilidad general del sitio web, sin necesidad de crear versiones separadas para cada tipo de dispositivo.</p>
+            </article>
+
+            <article id="viewport">
+                <h2>El Viewport</h2>
+                <p>El <strong>viewport</strong> es el área visible de una página web en el navegador del usuario. A través de la metaetiqueta <code>&lt;meta name="viewport"&gt;</code>, los desarrolladores pueden controlar cómo se escala y muestra el contenido.</p>
+                <p>Ejemplo de configuración:</p>
+                <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+            </article>
+
+            <article id="media">
+                <h2>CSS3 Media Queries</h2>
+                <p>Las <strong>media queries</strong> permiten aplicar estilos CSS específicos según el ancho del dispositivo, la orientación o la resolución de pantalla. Son la base del diseño adaptable.</p>
+                <p>Ejemplo práctico:</p>
+                <pre><code>@media (max-width: 768px) {
+    body {
+        background-color: #f2f2f2;
+    }
+}</code></pre>
+            </article>
+        </section>
+    </main>
+
+    <section class="galeria">
+        <img src="img/img1.jpg" alt="Ejemplo 1">
+        <img src="img/img2.jpg" alt="Ejemplo 2">
+        <img src="img/img3.jpg" alt="Ejemplo 3">
+        <img src="img/img4.jpg" alt="Ejemplo 4">
+    </section>
+
+    <footer>
+        <div>
+            <p>© 2025 - Manuel Alejandro Soto Rojas</p>
+        </div>
+        <div>
+            <p>Ingeniería del Software - ISW512</p>
+        </div>
+    </footer>
+
+</body>
+</html>
